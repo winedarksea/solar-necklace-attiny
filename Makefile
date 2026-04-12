@@ -1,6 +1,7 @@
 MCU        = attiny416
 F_CPU      = 3333333UL
-PROGRAMMER = pymcuprog
+PORT       = /dev/cu.usbserial-10
+BAUD       = 115200
 
 AVR_GCC_PREFIX = /opt/homebrew/opt/avr-gcc@14/bin
 
@@ -23,7 +24,7 @@ $(TARGET).hex: $(TARGET).elf
 	$(OBJCOPY) -O ihex -R .eeprom $< $@
 
 flash: $(TARGET).hex
-	pymcuprog write -t uart -d $(MCU) --erase -f $<
+	avrdude -p t416 -c serialupdi -P $(PORT) -b $(BAUD) -U flash:w:$<:i
 
 size: $(TARGET).elf
 	$(SIZE) --mcu=$(MCU) -C $<

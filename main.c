@@ -7,14 +7,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
-#include <util/delay.h>
-
-/* ADC thresholds (10-bit, 2.5V internal reference) */
-#define ADC_THRESHOLD_SHUTDOWN  205   /* 0.5V */
-#define ADC_THRESHOLD_TURBO     737   /* 1.8V */
-
-/* ADC check interval: every 8th PIT wake = ~2 seconds at 4Hz */
-#define ADC_CHECK_INTERVAL  8
 
 /* LED index mapping:
  *   0 = FET1 / PB3
@@ -26,10 +18,8 @@
 
 /* ── Global state ────────────────────────────────────────────── */
 
-static uint16_t lfsr;
+static uint16_t lfsr = 0xACE1;
 static uint8_t  current_led = BOOT_LED;
-static uint8_t  adc_counter;
-static uint8_t  turbo_available;
 
 /* ── PRNG ────────────────────────────────────────────────────── */
 
@@ -73,41 +63,6 @@ static void led_off(uint8_t idx)
     }
 }
 
-static void all_leds_off(void)
-{
-    PORTB.OUTCLR = PIN3_bm;
-    PORTA.OUTCLR = PIN2_bm;
-    PORTC.OUTCLR = PIN1_bm | PIN2_bm;
-}
-
-/* ── ADC ─────────────────────────────────────────────────────── */
-
-static uint16_t adc_read(void)
-{
-    ADC0.COMMAND = ADC_STCONV_bm;
-    while (!(ADC0.INTFLAGS & ADC_RESRDY_bm))
-        ;
-    return ADC0.RES;
-}
-
-/* ── Shutdown ────────────────────────────────────────────────── */
-
-static void shutdown(void)
-{
-    all_leds_off();
-    PORTA.OUTCLR = PIN4_bm;              /* turbo off */
-
-    ADC0.CTRLA &= ~ADC_ENABLE_bm;        /* disable ADC */
-
-    while (RTC.STATUS & RTC_CTRLABUSY_bm)
-        ;
-    RTC.PITCTRLA = 0;                     /* disable PIT */
-
-    set_sleep_mode(SLEEP_MODE_PWR_DOWN);
-    sleep_mode();
-    /* MCU stays here until power cycles (power-on reset) */
-}
-
 /* ── PIT ISR (wake only) ─────────────────────────────────────── */
 
 ISR(RTC_PIT_vect)
@@ -124,15 +79,14 @@ static void init_gpio(void)
     PORTA.DIRSET = PIN2_bm;              /* PA2 = FET2 */
     PORTC.DIRSET = PIN1_bm | PIN2_bm;   /* PC1 = FET4, PC2 = FET3 */
 
-    /* Turbo output */
-    PORTA.DIRSET = PIN4_bm;              /* PA4 = TURBO */
+    /* PA4 unused — set output-low to prevent floating */
+    PORTA.DIRSET = PIN4_bm;
 
     /* Boot LED on immediately (regulator needs load) */
     led_on(BOOT_LED);
 
     /* Disable digital input buffers on all pins for power saving.
-     * Skip PA0 (UPDI). Outputs and analog pins don't need them;
-     * unused pins must not float. */
+     * Skip PA0 (UPDI). Outputs don't need them; unused pins must not float. */
     PORTA.PIN1CTRL = PORT_ISC_INPUT_DISABLE_gc;
     PORTA.PIN2CTRL = PORT_ISC_INPUT_DISABLE_gc;
     PORTA.PIN3CTRL = PORT_ISC_INPUT_DISABLE_gc;
@@ -145,7 +99,7 @@ static void init_gpio(void)
     PORTB.PIN1CTRL = PORT_ISC_INPUT_DISABLE_gc;
     PORTB.PIN2CTRL = PORT_ISC_INPUT_DISABLE_gc;
     PORTB.PIN3CTRL = PORT_ISC_INPUT_DISABLE_gc;
-    PORTB.PIN4CTRL = PORT_ISC_INPUT_DISABLE_gc;  /* analog — must disable */
+    PORTB.PIN4CTRL = PORT_ISC_INPUT_DISABLE_gc;
     PORTB.PIN5CTRL = PORT_ISC_INPUT_DISABLE_gc;
 
     PORTC.PIN0CTRL = PORT_ISC_INPUT_DISABLE_gc;
@@ -154,29 +108,25 @@ static void init_gpio(void)
     PORTC.PIN3CTRL = PORT_ISC_INPUT_DISABLE_gc;
 }
 
-static void init_adc(void)
-{
-    VREF.CTRLA = VREF_ADC0REFSEL_2V5_gc;
-    ADC0.CTRLC = ADC_SAMPCAP_bm | ADC_REFSEL_INTREF_gc | ADC_PRESC_DIV16_gc;
-    ADC0.MUXPOS = ADC_MUXPOS_AIN9_gc;   /* PB4 */
-    ADC0.CTRLA = ADC_ENABLE_bm;
-}
-
 static void init_pit(void)
 {
     while (RTC.STATUS & RTC_CTRLABUSY_bm)
         ;
     RTC.CLKSEL = RTC_CLKSEL_INT32K_gc;
-    RTC.PITINTCTRL = RTC_PI_bm;
-    RTC.PITCTRLA = RTC_PERIOD_CYC8192_gc | RTC_PITEN_bm;
-}
 
-static void seed_prng(void)
-{
-    uint16_t seed = adc_read();
-    if (seed == 0)
-        seed = 0xACE1;
-    lfsr = seed;
+    while (RTC.STATUS & RTC_CTRLABUSY_bm)
+        ;
+    RTC.CTRLA = RTC_RUNSTDBY_bm;
+
+    while (RTC.PITSTATUS & RTC_CTRLBUSY_bm)
+        ;
+    RTC.PITINTCTRL = RTC_PI_bm;
+
+    while (RTC.PITSTATUS & RTC_CTRLBUSY_bm)
+        ;
+    RTC.PITCTRLA = RTC_PERIOD_CYC8192_gc | RTC_PITEN_bm;
+
+    RTC.PITINTFLAGS = RTC_PI_bm;
 }
 
 /* ── Main ────────────────────────────────────────────────────── */
@@ -184,8 +134,6 @@ static void seed_prng(void)
 int main(void)
 {
     init_gpio();
-    init_adc();
-    seed_prng();
     init_pit();
 
     set_sleep_mode(SLEEP_MODE_STANDBY);
@@ -201,23 +149,5 @@ int main(void)
         led_on(next);
         led_off(current_led);
         current_led = next;
-
-        /* Periodic ADC voltage check */
-        if (++adc_counter >= ADC_CHECK_INTERVAL) {
-            adc_counter = 0;
-            uint16_t voltage = adc_read();
-
-            if (voltage < ADC_THRESHOLD_SHUTDOWN)
-                shutdown();
-
-            turbo_available = (voltage > ADC_THRESHOLD_TURBO);
-        }
-
-        /* Occasional turbo pulse (~12.5% chance per transition when available) */
-        if (turbo_available && (prng_next() & 0x07) == 0) {
-            PORTA.OUTSET = PIN4_bm;
-            _delay_us(300);
-            PORTA.OUTCLR = PIN4_bm;
-        }
     }
 }
