@@ -79,7 +79,7 @@ static void init_gpio(void)
     PORTA.DIRSET = PIN2_bm;              /* PA2 = FET2 */
     PORTC.DIRSET = PIN1_bm | PIN2_bm;   /* PC1 = FET4, PC2 = FET3 */
 
-    /* PA4 unused — set output-low to prevent floating */
+    /* PA4, turbo, currently unused — set output-low to prevent floating */
     PORTA.DIRSET = PIN4_bm;
 
     /* Boot LED on immediately (regulator needs load) */

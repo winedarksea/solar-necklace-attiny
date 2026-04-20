@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/colincatlin/Documents/solar_necklace_2/lightsaber_necklace.kicad_sch</source>
+    <date>Tuesday, March 17, 2026 at 11:05:28 PM</date>
+    <tool>Eeschema 7.0.11</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lightsaber_necklace.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>supercap</value>
+      <footprint>Capacitor_THT:C_Rect_L11.5mm_W9.8mm_P10.00mm_MKT</footprint>
+      <fields>
+        <field name="Description">KR-5R5H474-R , 1.2 mm offset</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Description" value="KR-5R5H474-R , 1.2 mm offset"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>753a5b67-a840-490a-b8a9-a715080c7cc9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1 nF C0G</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C9196</field>
+        <field name="Vendor">C9196</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JCLPCB" value="C9196"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C9196"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bd8c6a1-2295-4577-a547-d0dd7c819fcf</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>supercap</value>
+      <footprint>Capacitor_THT:C_Rect_L11.5mm_W9.8mm_P10.00mm_MKT</footprint>
+      <fields>
+        <field name="Description">KR-5R5H474-R , 1.2 mm offset</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Description" value="KR-5R5H474-R , 1.2 mm offset"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b326eb6-ac04-465a-be00-b3dc281d6b29</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2.2 nF C0G</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C28260</field>
+        <field name="Vendor">C28260</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JCLPCB" value="C28260"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C28260"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d40f8d4-91ca-4b60-b9d2-473c81e39184</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2.2 nF C0G</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C28260</field>
+        <field name="Vendor">C28260</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JCLPCB" value="C28260"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C28260"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2581e2c5-47fa-425a-a055-14ae58d9bcf5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>supercap</value>
+      <footprint>Capacitor_THT:C_Rect_L11.5mm_W9.8mm_P10.00mm_MKT</footprint>
+      <fields>
+        <field name="Description">KR-5R5H474-R , 1.2 mm offset</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Description" value="KR-5R5H474-R , 1.2 mm offset"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b3850c1-44e0-47ba-929a-e4ded94a223e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>47 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">C96123</field>
+        <field name="JCLPCB">C96123</field>
+        <field name="Vendor">C96123</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JCLPCB" value="C96123"/>
+      <property name="Description" value="C96123"/>
+      <property name="Vendor" value="C96123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69a1d22b-8a0a-4f4f-9c4e-23b9baa6d52b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C52923</field>
+        <field name="Vendor">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JCLPCB" value="C52923"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2525b0f-dc4d-4316-a16e-ca6e03edf573</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>2.2 nF C0G</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C28260</field>
+        <field name="Vendor">C28260</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JCLPCB" value="C28260"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C28260"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>073b34c5-a34c-4b42-a5db-39ab324b4596</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Description">BAT43WS</field>
+        <field name="JCLPCB">C3313093</field>
+        <field name="Vendor">C3313093</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="JCLPCB" value="C3313093"/>
+      <property name="Description" value="BAT43WS"/>
+      <property name="Vendor" value="C3313093"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81a11c20-1c3c-45d4-aa3b-adc210103143</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Description">BAT43WS</field>
+        <field name="JCLPCB">C3313093</field>
+        <field name="Vendor">C3313093</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="JCLPCB" value="C3313093"/>
+      <property name="Description" value="BAT43WS"/>
+      <property name="Vendor" value="C3313093"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ea7f71-841c-45b7-95be-98cb3f769a87</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm</footprint>
+      <fields>
+        <field name="Description">IN-S124BR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="IN-S124BR"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>457df1c0-5951-4acc-8ea9-b560fe4675ae</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="JCLPCB">C20615818</field>
+        <field name="Vendor">C20615818</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Description" value=""/>
+      <property name="JCLPCB" value="C20615818"/>
+      <property name="Vendor" value="C20615818"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b89cf53-4c1e-4fbf-a03d-0fd0e73f1bcc</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm</footprint>
+      <fields>
+        <field name="Description">IN-S124BR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="IN-S124BR"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d50a5f78-acaa-456e-a711-bbdc01da198d</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Osram_Lx_P47F_D2mm_ReverseMount</footprint>
+      <fields>
+        <field name="Description">LW P4SG-V2AB-JKPL-1-ZI</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LW P4SG-V2AB-JKPL-1-ZI"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3550eb97-eb28-4e99-a3fb-8e53a10eef80</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Osram_Lx_P47F_D2mm_ReverseMount</footprint>
+      <fields>
+        <field name="Description">LW P4SG-V2AB-JKPL-1-ZI</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LW P4SG-V2AB-JKPL-1-ZI"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a621fb5-8848-492b-bc53-99b27c061dd7</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Description">BAT43WS</field>
+        <field name="JCLPCB">C3313093</field>
+        <field name="Vendor">C3313093</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="JCLPCB" value="C3313093"/>
+      <property name="Description" value="BAT43WS"/>
+      <property name="Vendor" value="C3313093"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57e251f3-5ba2-4f92-bb18-a13d7201c686</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Description">BAT43WS</field>
+        <field name="JCLPCB">C3313093</field>
+        <field name="Vendor">C3313093</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="JCLPCB" value="C3313093"/>
+      <property name="Description" value="BAT43WS"/>
+      <property name="Vendor" value="C3313093"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6526dc1-388c-4c7f-bee8-513e8d192b4a</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3eb0478-7df5-4954-81a3-104a415d216d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>earring_mount</value>
+      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Socket" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b50fd430-e693-4507-9eb2-1d3fedb48764</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>earring_mount</value>
+      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Socket" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>086b5a41-2c94-4524-abf5-b802cd9a2569</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>pins</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>777e0ed8-0995-4c28-aadb-eb02fc4de85d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>pins</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d27d62e3-e583-44f8-91aa-5d51fda8dfd1</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7 uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">0603 C1034,  1206 C1049</field>
+        <field name="JCLPCB">C1034</field>
+        <field name="Vendor">C1034</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="JCLPCB" value="C1034"/>
+      <property name="Description" value="0603 C1034,  1206 C1049"/>
+      <property name="Vendor" value="C1034"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67cd423e-4f97-458b-a3ef-86412dddc40e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>dual_NMOS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Description">DMN2053, AO6800-HXY, PJS6816 (prev 2x TSM210N02CX)</field>
+        <field name="JCLPCB">C17445986</field>
+        <field name="Vendor">C17445986</field>
+      </fields>
+      <libsource lib="Device" part="Q_Dual_NMOS_G1S2G2D2S1D1" description="Dual NMOS transistor, 6 pin package"/>
+      <property name="Description" value="DMN2053, AO6800-HXY, PJS6816 (prev 2x TSM210N02CX)"/>
+      <property name="JCLPCB" value="C17445986"/>
+      <property name="Vendor" value="C17445986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Dual NMOS transistor, 6 pin package"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa29660d-0600-476c-b5d6-cb06d8854388 1ca0bdf7-054a-4f59-89ab-bdfed733279a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>dual_NMOS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Description">DMN2053, AO6800-HXY, PJS6816 (prev 2x TSM210N02CX)</field>
+        <field name="JCLPCB">C17445986</field>
+        <field name="Vendor">C17445986</field>
+      </fields>
+      <libsource lib="Device" part="Q_Dual_NMOS_G1S2G2D2S1D1" description="Dual NMOS transistor, 6 pin package"/>
+      <property name="Description" value="DMN2053, AO6800-HXY, PJS6816 (prev 2x TSM210N02CX)"/>
+      <property name="JCLPCB" value="C17445986"/>
+      <property name="Vendor" value="C17445986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Dual NMOS transistor, 6 pin package"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91c28b28-1fd5-4a06-9d97-78011c6060ce 2a12d504-c1a9-4d3c-9974-83983e9efea0</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>dual_NMOS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Description">DMN2053, AO6800-HXY, PJS6816 (prev 2x TSM210N02CX)</field>
+        <field name="JCLPCB">C17445986</field>
+        <field name="Vendor">C17445986</field>
+      </fields>
+      <libsource lib="Device" part="Q_Dual_NMOS_G1S2G2D2S1D1" description="Dual NMOS transistor, 6 pin package"/>
+      <property name="Description" value="DMN2053, AO6800-HXY, PJS6816 (prev 2x TSM210N02CX)"/>
+      <property name="JCLPCB" value="C17445986"/>
+      <property name="Vendor" value="C17445986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Dual NMOS transistor, 6 pin package"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95b0fd53-f58d-42f2-be76-d7b8a1df0a88 049e8d1a-3a47-49bc-a171-d93bcc671314</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Description">TSM260P02CX</field>
+        <field name="JCLPCB">C3282261</field>
+        <field name="Vendor">C3282261</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Description" value="TSM260P02CX"/>
+      <property name="JCLPCB" value="C3282261"/>
+      <property name="Vendor" value="C3282261"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6b18fe9-386e-4dbf-b987-f205b5afae61</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C26083</field>
+        <field name="Vendor">C26083</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JCLPCB" value="C26083"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C26083"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5484b027-7b6b-4c40-b87c-365a054eb0b1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C26083</field>
+        <field name="Vendor">C26083</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JCLPCB" value="C26083"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C26083"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f74038b7-b335-4fb7-b9e5-ef32c52a12fa</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">could be replaced by red led</field>
+        <field name="JCLPCB">C21189</field>
+        <field name="Vendor">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JCLPCB" value="C21189"/>
+      <property name="Description" value="could be replaced by red led"/>
+      <property name="Vendor" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce647e12-76fb-4a3c-99e1-12cbd8bd9697</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Description">C17561 </field>
+        <field name="JCLPCB">C25092</field>
+        <field name="Vendor">C25092</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JCLPCB" value="C25092"/>
+      <property name="Description" value="C17561 "/>
+      <property name="Vendor" value="C25092"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cb4f47a-c823-4c09-9cd6-ea96ac04e419</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">could be replaced by red led</field>
+        <field name="JCLPCB">C21189</field>
+        <field name="Vendor">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JCLPCB" value="C21189"/>
+      <property name="Description" value="could be replaced by red led"/>
+      <property name="Vendor" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a005e4d0-82d5-40ba-8dc4-61b937e9884f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4275</field>
+        <field name="Vendor">C4275</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JCLPCB" value="C4275"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C4275"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0e860e0-2ae1-4592-826a-f7b842769d3a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C26082</field>
+        <field name="Vendor">C26082</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="JCLPCB" value="C26082"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="C26082"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6229c9e4-026e-4c0f-99a3-ce0c9d1c0019</tstamps>
+    </comp>
+    <comp ref="SC1">
+      <value>Solar_Cell</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Description">KXOB25-03X4F-TR</field>
+      </fields>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Description" value="KXOB25-03X4F-TR"/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Single solar cell"/>
+      <property name="ki_keywords" value="solar cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80c81dbe-2b43-4d1e-92ac-c2e45476dc7b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4ea3402-ba1d-4b5f-907a-aa2f93460591</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP1643xMS</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20005208A.pdf</datasheet>
+      <fields>
+        <field name="JCLPCB">C627044</field>
+        <field name="Vendor">C627044</field>
+      </fields>
+      <libsource lib="Driver_LED" part="MCP1643xMS" description="Constant-current LED boost regulator, 0.65V startup, 550mA output, MSOP-8"/>
+      <property name="JCLPCB" value="C627044"/>
+      <property name="Vendor" value="C627044"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="Constant-current LED boost regulator, 0.65V startup, 550mA output, MSOP-8"/>
+      <property name="ki_keywords" value="LED driver low voltage"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>273e08d6-1624-491e-a069-dfac274c892b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATtiny416-M</value>
+      <footprint>Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf</datasheet>
+      <fields>
+        <field name="JCLPCB">C2053012</field>
+        <field name="Vendor">C2053012</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny416-M" description="20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, VQFN-20"/>
+      <property name="JCLPCB" value="C2053012"/>
+      <property name="Vendor" value="C2053012"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lightsaber_necklace.kicad_sch"/>
+      <property name="ki_description" value="20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, VQFN-20"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller tinyAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c14dbbeb-b7eb-40ce-9218-7370d5adbe3d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Socket">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Dual_NMOS_G1S2G2D2S1D1">
+      <description>Dual NMOS transistor, 6 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TSOP*</fp>
+        <fp>SC?70*</fp>
+        <fp>SC?88*</fp>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Dual_NMOS_G1S2G2D2S1D1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="D" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Solar_Cell">
+      <description>Single solar cell</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SC</field>
+        <field name="Value">Solar_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="MCP1643xMS">
+      <description>Constant-current LED boost regulator, 0.65V startup, 550mA output, MSOP-8</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/20005208A.pdf</docs>
+      <footprints>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1643xMS</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20005208A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="VFB" type="input"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="SW" type="passive"/>
+        <pin num="6" name="PGND" type="power_in"/>
+        <pin num="7" name="SGND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny416-M">
+      <description>20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, VQFN-20</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny416-M</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="bidirectional"/>
+        <pin num="2" name="PA3" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PA4" type="bidirectional"/>
+        <pin num="6" name="PA5" type="bidirectional"/>
+        <pin num="7" name="PA6" type="bidirectional"/>
+        <pin num="8" name="PA7" type="bidirectional"/>
+        <pin num="9" name="PB5" type="bidirectional"/>
+        <pin num="10" name="PB4" type="bidirectional"/>
+        <pin num="11" name="PB3" type="bidirectional"/>
+        <pin num="12" name="PB2" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PC0" type="bidirectional"/>
+        <pin num="16" name="PC1" type="bidirectional"/>
+        <pin num="17" name="PC2" type="bidirectional"/>
+        <pin num="18" name="PC3" type="bidirectional"/>
+        <pin num="19" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="20" name="PA1" type="bidirectional"/>
+        <pin num="21" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Driver_LED.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/EN">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="2" name="/VFb">
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="5" pinfunction="S" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
+    </net>
+    <net code="3" name="/Vout">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="4" name="/cell1">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SC1" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="5" name="FET1">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="FET2">
+      <node ref="Q3" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="FET3">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="FET4">
+      <node ref="Q2" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SC1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="SGND" pintype="power_in"/>
+      <node ref="U2" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="10" name="LEDPOWA">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(D1-A)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D5-K)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="4" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D7-K)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q1B-D)">
+      <node ref="Q1" pin="4" pinfunction="D" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q2B-D)">
+      <node ref="Q2" pin="4" pinfunction="D" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q3A-D)">
+      <node ref="Q3" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(U1-SW)">
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="21" name="TURBO">
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="UPDI">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="combined_solars">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="supaCap">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(Q1A-D-Pad6)">
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(Q1A-G-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(Q1A-S-Pad5)">
+      <node ref="Q1" pin="5" pinfunction="S" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-NC-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U2-PA1-Pad20)">
+      <node ref="U2" pin="20" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U2-PA3-Pad2)">
+      <node ref="U2" pin="2" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U2-PA5-Pad6)">
+      <node ref="U2" pin="6" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U2-PA6-Pad7)">
+      <node ref="U2" pin="7" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-PA7-Pad8)">
+      <node ref="U2" pin="8" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U2-PB0-Pad14)">
+      <node ref="U2" pin="14" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U2-PB1-Pad13)">
+      <node ref="U2" pin="13" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U2-PB2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U2-PB5-Pad9)">
+      <node ref="U2" pin="9" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-PC0-Pad15)">
+      <node ref="U2" pin="15" pinfunction="PC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U2-PC3-Pad18)">
+      <node ref="U2" pin="18" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

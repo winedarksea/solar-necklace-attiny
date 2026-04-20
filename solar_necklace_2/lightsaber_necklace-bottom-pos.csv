@@ -1,0 +1,8 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","supercap","C_Rect_L11.5mm_W9.8mm_P10.00mm_MKT",-54.199999,1.800000,0.000000,bottom
+"C3","supercap","C_Rect_L11.5mm_W9.8mm_P10.00mm_MKT",-54.199999,25.600000,0.000000,bottom
+"C6","supercap","C_Rect_L11.5mm_W9.8mm_P10.00mm_MKT",-54.199999,13.700000,0.000000,bottom
+"D3","LED","LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm",-46.649999,0.000000,180.000000,bottom
+"D5","LED","LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm",-53.229999,-0.210000,0.000000,bottom
+"D6","LED","LED_Osram_Lx_P47F_D2mm_ReverseMount",-49.999999,2.800000,180.000000,bottom
+"D7","LED","LED_Osram_Lx_P47F_D2mm_ReverseMount",-49.999999,-2.600000,180.000000,bottom

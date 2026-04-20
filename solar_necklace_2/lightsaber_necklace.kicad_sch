@@ -1344,6 +1344,8 @@
   )
 
   (no_connect (at 254 133.35) (uuid 050e4935-2965-492b-96eb-d791a4dcad5c))
+  (no_connect (at 254 151.13) (uuid 0c3c55e3-f923-43b3-9f54-2cd069b5189b))
+  (no_connect (at 262.89 151.13) (uuid 2aa1bc54-13be-442f-b8ee-ff71869c1d6a))
   (no_connect (at 254 143.51) (uuid 3fd8f01b-d369-45eb-a774-50edb25a2da6))
   (no_connect (at 31.75 66.04) (uuid 41751fcc-682a-4d80-861f-33ee06bdc951))
   (no_connect (at 254 125.73) (uuid 443fc5db-82a6-4a63-a13e-572ffdb7d9e1))
@@ -1839,8 +1841,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 56ea09ae-5258-47ba-ae90-919713323eee)
   )
-  (text "After top layer PCB assembly\n1. Solder LEDs\n2. Program and test MCU (with EN switch off)\n3. Apply conformal coating (not through holes), to earring basket, solar panel edge\n4. Solder solar panel\n5. Solder earring in with silver solder\n6. Apply conformal coating to earring on backside\n7. Solder capacitors"
-    (at 162.56 97.79 0)
+  (text "After top layer PCB assembly\n1. Solder LEDs\n2. Program and test MCU (with EN switch off)\n3. Apply conformal coating (not through holes), to earring basket, solar panel edge\n4. Solder solar panel\n5. Solder earring in with silver solder.\n6. Apply conformal coating to earring on backside\nIt is must harder to program the MCU once earring and capacitors are in place, so make sure you like the program first\n7. Solder capacitors"
+    (at 151.13 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7776cdc7-d60d-406d-8edd-e69c76c1d844)
   )
@@ -1939,10 +1941,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LEDPOWA" (shape input) (at 254 151.13 0) (fields_autoplaced)
+  (global_label "LEDPOWA" (shape input) (at 262.89 151.13 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 30b27f1e-2f62-45e8-8e5a-e03a96b88de9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 265.5728 151.13 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 274.4628 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
